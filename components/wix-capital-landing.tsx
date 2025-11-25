@@ -19,7 +19,7 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
               <rect width="24" height="24" rx="4" fill="#116DFF"/>
               <path d="M7 8L12 16L17 8H7Z" fill="white"/>
             </svg>
-            <span className="text-lg font-semibold text-gray-900">Wix</span>
+            <span className="text-lg font-semibold text-gray-900">Factorial</span>
           </div>
         </div>
       </header>
@@ -30,7 +30,7 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
           <div>
             {/* Header */}
             <div className="mb-8">
-              <div className="text-sm text-gray-600 mb-3">Wix Cashflow</div>
+              <div className="text-sm text-gray-600 mb-3">Factorial Cashflow</div>
               <h1 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">
                 A bank account built into your business
               </h1>
@@ -42,18 +42,18 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
             {/* Features List */}
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-700">
-                    <span className="font-semibold">Get an account with the Wix Checking Account</span> (checking account and routing number) that directly integrates with your business
+                    <span className="font-semibold">Get an account with the Checking Account</span> (checking account and routing number) that directly integrates with your business
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
@@ -64,7 +64,7 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
@@ -75,29 +75,29 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-700">
-                    <span className="font-semibold">Discover smart ways to grow your business</span> using Wix data including suggested spend and ways to boost your cash flow
+                    <span className="font-semibold">Discover smart ways to grow your business</span> using data including suggested spend and ways to boost your cash flow
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-700">
-                    <span className="font-semibold">Build your credit</span> and grow your buying power with the Wix Business Mastercard
+                    <span className="font-semibold">Build your credit</span> and grow your buying power with the Business Mastercard
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 rounded-full bg-[#FF5A5F] flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="h-3 w-3 text-white" strokeWidth={3} />
                 </div>
                 <div>
@@ -112,13 +112,13 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
             <div className="flex items-center gap-4">
               <Button
                 onClick={onGetStarted}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 h-11 rounded-lg font-medium"
+                className="bg-[#FF5A5F] hover:bg-[#E54A4F] text-white px-6 h-11 rounded-lg font-medium"
               >
                 Get started
               </Button>
               <Button
                 variant="ghost"
-                className="text-blue-600 hover:text-blue-700 hover:bg-blue-50 h-11 px-6"
+                className="text-[#FF5A5F] hover:text-[#E54A4F] hover:bg-red-50 h-11 px-6"
               >
                 Explore the program
               </Button>
@@ -127,11 +127,11 @@ export function WixCapitalLanding({ onGetStarted }: WixCapitalLandingProps) {
             {/* Footer Text */}
             <div className="mt-8 text-xs text-gray-500 leading-relaxed">
               <p className="mb-2">
-                Banking services provided by Piermont Bank, Member FDIC. The Wix Visa Business Debit Card is issued by Piermont Bank
+                Banking services provided by Piermont Bank, Member FDIC. The Visa Business Debit Card is issued by Piermont Bank
                 pursuant to a license from Visa U.S.A. Inc. and may be used everywhere Visa debit cards are accepted.
               </p>
               <p>
-                Wix Capital is not a bank. Funding is subject to additional approval criteria. See Wix Capital Terms & Conditions
+                Factorial Capital is not a bank. Funding is subject to additional approval criteria. See Factorial Capital Terms & Conditions
                 for full product details.
               </p>
             </div>

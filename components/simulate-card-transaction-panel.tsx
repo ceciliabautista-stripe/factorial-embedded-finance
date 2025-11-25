@@ -92,7 +92,7 @@ export function SimulateCardTransactionPanel({ onSuccess }: SimulateCardTransact
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild>
         <Button 
-          className="gap-2 bg-[#0070F3] hover:bg-[#0070F3]/90 text-white"
+          className="gap-2 bg-[#FF5A5F] hover:bg-[#FF5A5F]/90 text-white"
           onClick={() => setIsOpen(true)}
         >
           <CreditCard className="h-4 w-4" />
@@ -150,7 +150,7 @@ export function SimulateCardTransactionPanel({ onSuccess }: SimulateCardTransact
               <Button 
                 type="submit" 
                 disabled={isLoading || !amount || parseFloat(amount) <= 0}
-                className="flex-1 bg-[#0070F3] hover:bg-[#0070F3]/90 h-11"
+                className="flex-1 bg-[#FF5A5F] hover:bg-[#FF5A5F]/90 h-11"
               >
                 {isLoading ? (
                   <>

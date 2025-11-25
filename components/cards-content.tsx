@@ -16,7 +16,7 @@ export function CardsContent({ onBack }: CardsContentProps) {
         {/* Breadcrumb */}
         <div className="mb-2">
           <div className="text-sm text-gray-600">
-            Wix Finances <span className="mx-1">›</span> Cards
+            Factorial Finances <span className="mx-1">›</span> Cards
           </div>
         </div>
 

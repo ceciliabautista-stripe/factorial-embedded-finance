@@ -55,6 +55,8 @@ export function FinancialDashboard() {
               fontWeightBold: '600',
               spacingUnit: '8px',
               borderRadius: '8px',
+              colorPrimary: '#FF5A5F',
+              fontcolor: '#000000',
             },
           },
         })
@@ -100,18 +102,18 @@ export function FinancialDashboard() {
         </div>
 
         <div className="mb-6 flex gap-4 text-sm">
-          <Button variant="link" className="h-auto p-0 text-[#0070F3]">
+          <Button variant="link" className="h-auto p-0 text-[#FF5A5F]">
             <ArrowUpRight className="mr-1 h-4 w-4" />
             Add Money
           </Button>
-          <Button variant="link" className="h-auto p-0 text-[#0070F3]">
+          <Button variant="link" className="h-auto p-0 text-[#FF5A5F]">
             <ArrowUpRight className="mr-1 h-4 w-4" />
             Transfer Out
           </Button>
         </div>
 
         <div className="relative h-48 rounded-lg bg-gradient-to-br from-[#0A1628] to-[#1a2942] p-6 text-white">
-          <div className="mb-8 text-2xl font-bold">WIX</div>
+          <div className="mb-8 text-2xl font-bold">FACTORIAL</div>
           <div className="absolute bottom-6 left-6">
             <div className="h-8 w-12 rounded bg-white/20" />
           </div>
@@ -131,15 +133,15 @@ export function FinancialDashboard() {
           title="Order #00123"
           subtitle="Dec 14 · Deposit"
           amount="$248.50"
-          icon={<div className="text-xs font-bold">WIX</div>}
+          icon={<div className="text-xs font-bold">FACTORIAL</div>}
         />
 
         <TransactionItem
           title="Lemon Tax Software"
           subtitle="Dec 14 · Debit Card"
           amount="-$163.75"
-          icon={<div className="rounded bg-[#0070F3] p-2">🍋</div>}
-          iconBg="bg-[#0070F3]"
+          icon={<div className="rounded bg-[#FF5A5F] p-2">🍋</div>}
+          iconBg="bg-[#FF5A5F]"
         />
 
         <TransactionItem

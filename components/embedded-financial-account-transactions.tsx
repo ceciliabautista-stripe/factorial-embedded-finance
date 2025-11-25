@@ -48,7 +48,7 @@ export function EmbeddedFinancialAccountTransactions({
           appearance: {
             overlays: 'dialog',
             variables: {
-              colorPrimary: '#2563eb',
+              colorPrimary: '#FF5A5F',
               colorBackground: '#ffffff',
               colorText: '#1a1a1a',
               fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
@@ -58,6 +58,7 @@ export function EmbeddedFinancialAccountTransactions({
               fontWeightNormal: '400',
               fontWeightMedium: '500',
               fontWeightBold: '600',
+              buttonPrimaryColorText: "#ffffff",
             },
             rules: {
               '.Container': {
@@ -82,8 +83,8 @@ export function EmbeddedFinancialAccountTransactions({
                 backgroundColor: '#f9fafb',
               },
               '.Tab--selected': {
-                borderColor: '#2563eb',
-                backgroundColor: '#dbeafe',
+                borderColor: '#FF5A5F',
+                backgroundColor: '#fff5f5',
               },
               '.Input': {
                 padding: '10px',
@@ -95,6 +96,12 @@ export function EmbeddedFinancialAccountTransactions({
                 borderRadius: '6px',
                 fontWeight: '500',
                 fontSize: '14px',
+                backgroundColor: '#FF5A5F',
+                color: '#ffffff',
+              },
+              '.Button:hover': {
+                backgroundColor: '#E54A4F',
+                color: '#ffffff',
               },
             },
           },

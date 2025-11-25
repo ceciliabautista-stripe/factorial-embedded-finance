@@ -4,7 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Wix Business Dashboard',
+  title: 'Factorial Business Dashboard',
   description: 'Business management dashboard with Stripe Capital integration',
   generator: 'v0.app',
 }

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Wix Embedded Finance Dashboard demo built with Next.js 15, showcasing integration with Stripe's Embedded Components for Capital, Treasury (Financial Accounts), and Issuing (Cards). The application demonstrates a complete Banking-as-a-Service (BaaS) platform with multiple financial product offerings.
+This is a Factorial Embedded Finance Dashboard demo built with Next.js 15, showcasing integration with Stripe's Embedded Components for Capital, Treasury (Financial Accounts), and Issuing (Cards). The application demonstrates a complete Banking-as-a-Service (BaaS) platform with multiple financial product offerings.
 
 ## Development Commands
 
@@ -141,7 +141,7 @@ Uses `@/` alias for imports, defined in `tsconfig.json`:
 
 ### Styling
 - Tailwind CSS v4 with custom configuration
-- Color scheme inspired by Wix branding (blues and clean design)
+- Color scheme inspired by Factorial branding (red/coral tones)
 - Custom UI components from shadcn/ui in `components/ui/`
 
 ### Type Safety
@@ -189,4 +189,4 @@ All main pages and Stripe components use `'use client'` directive - this is a fu
 - Error handling is basic - production apps should add proper error boundaries and user feedback
 - No authentication/authorization - this is a demo/prototype
 - Session management is handled entirely by Stripe's embedded components
-- The README mentions "Booking.com" styling but the current implementation is Wix-branded
+- The README mentions "Factorial" styling which is the current implementation

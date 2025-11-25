@@ -46,54 +46,14 @@ export function EmbeddedIssuingCardsList({
           appearance: {
             overlays: 'dialog',
             variables: {
-              colorPrimary: '#2563eb',
+              colorPrimary: '#FF5A5F',
               colorBackground: '#ffffff',
               colorText: '#1a1a1a',
               fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
               fontSizeBase: '16px',
               spacingUnit: '8px',
               borderRadius: '8px',
-              fontWeightNormal: '400',
-              fontWeightMedium: '500',
-              fontWeightBold: '600',
-            },
-            rules: {
-              '.Container': {
-                padding: '0',
-                boxShadow: 'none',
-              },
-              '.Block': {
-                padding: '0',
-                marginBottom: '12px',
-              },
-              '.Label': {
-                fontWeight: '500',
-                marginBottom: '6px',
-                fontSize: '14px',
-              },
-              '.Tab': {
-                padding: '10px 14px',
-                border: '1px solid #e5e7eb',
-                borderRadius: '6px',
-              },
-              '.Tab:hover': {
-                backgroundColor: '#f9fafb',
-              },
-              '.Tab--selected': {
-                borderColor: '#635BFF',
-                backgroundColor: '#f5f3ff',
-              },
-              '.Input': {
-                padding: '10px',
-                borderRadius: '6px',
-                fontSize: '14px',
-              },
-              '.Button': {
-                padding: '10px 20px',
-                borderRadius: '6px',
-                fontWeight: '500',
-                fontSize: '14px',
-              },
+              buttonPrimaryColorText: "#ffffff",
             },
           },
         })

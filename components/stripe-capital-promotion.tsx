@@ -79,6 +79,7 @@ export function StripeCapitalPromotion({
               fontWeightNormal: '400',
               fontWeightMedium: '500',
               fontWeightBold: '600',
+              colorPrimary: '#FF5A5F',
             },
           },
         })
@@ -122,6 +123,7 @@ export function StripeCapitalPromotion({
               fontWeightNormal: '400',
               fontWeightMedium: '500',
               fontWeightBold: '600',
+              colorPrimary: '#FF5A5F',
             },
           },
         })
@@ -330,13 +332,13 @@ export function StripeCapitalPromotion({
       {/* Breadcrumb */}
       <div className="mb-2">
         <div className="text-sm text-gray-600">
-          Wix Capital <span className="mx-1">›</span> {stepSubtitles[currentStep]}
+          Factorial Capital <span className="mx-1">›</span> {stepSubtitles[currentStep]}
         </div>
       </div>
 
-      {/* Wix Capital Title */}
+      {/* Factorial Capital Title */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Wix Capital</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Factorial Capital</h1>
         <Button variant="ghost" size="sm" onClick={onClose} className="text-gray-600 hover:text-gray-900">
           <X className="h-4 w-4" />
         </Button>

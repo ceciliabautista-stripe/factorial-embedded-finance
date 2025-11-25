@@ -1,6 +1,6 @@
-# Wix Embedded Finance Dashboard
+# Factorial Embedded Finance Dashboard
 
-A complete embedded finance platform showcasing Stripe's Banking-as-a-Service capabilities through an integrated business dashboard interface. This demo features Treasury financial accounts, Issuing cards, and Capital financing - all embedded seamlessly into a Wix-style business management platform.
+A complete embedded finance platform showcasing Stripe's Banking-as-a-Service capabilities through an integrated business dashboard interface. This demo features Treasury financial accounts, Issuing cards, and Capital financing - all embedded seamlessly into a Factorial-style business management platform.
 
 ## 🌟 Features
 
@@ -27,7 +27,7 @@ A complete embedded finance platform showcasing Stripe's Banking-as-a-Service ca
 ### 🎨 Professional UI/UX
 - **Consistent breadcrumb navigation** across all pages
 - **Slide-out panels** for secondary actions (Add Money, Simulate Transaction)
-- **Wix blue color scheme** (`#0070F3`) for primary actions
+- **Factorial red/coral color scheme** (`#FF5A5F`) for primary actions
 - **Responsive design** that works on all screen sizes
 - **Toast notifications** for user feedback
 
@@ -188,7 +188,7 @@ Main landing page with overview of the business checking account and quick navig
 ## 🎨 Design System
 
 ### Colors
-- **Primary Blue**: `#0070F3` (Wix brand blue)
+- **Primary Red/Coral**: `#FF5A5F` (Factorial brand color)
 - **Text Primary**: `text-gray-900`
 - **Text Secondary**: `text-gray-600`
 - **Borders**: `border-border`
@@ -207,7 +207,7 @@ Main landing page with overview of the business checking account and quick navig
 ## 📂 Project Structure
 
 ```
-wix_c4p/
+factorial_embedded_finance/
 ├── app/
 │   ├── api/stripe/          # All Stripe API routes
 │   │   ├── inbound-transfer/
