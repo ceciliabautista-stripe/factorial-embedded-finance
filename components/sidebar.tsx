@@ -64,7 +64,7 @@ export function Sidebar({ onNavigateToCapital, onNavigateToChecking, onNavigateT
                     : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900'
                 }`}
               >
-                Business Checking
+                Factorial Finance
                 <Badge className="ml-auto bg-[#FF5A5F] text-white text-xs px-2">NEW</Badge>
               </Button>
               <Button
