@@ -1,7 +1,11 @@
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export function MainContent() {
+interface MainContentProps {
+  onNavigateToFinancialAccount: () => void
+}
+
+export function MainContent({ onNavigateToFinancialAccount }: MainContentProps) {
   return (
     <main className="flex-1 overflow-auto bg-background p-12">
       <div className="mx-auto max-w-2xl">
@@ -41,7 +45,11 @@ export function MainContent() {
         </div>
 
         <div className="flex gap-4 mb-12">
-          <Button size="lg" className="bg-[#FF5A5F] hover:bg-[#E54A4F] text-white">
+          <Button 
+            size="lg" 
+            className="bg-[#FF5A5F] hover:bg-[#E54A4F] text-white"
+            onClick={onNavigateToFinancialAccount}
+          >
             Open Account
           </Button>
           <Button variant="link" size="lg" className="text-[#FF5A5F]">

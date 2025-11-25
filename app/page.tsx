@@ -135,8 +135,7 @@ export default function WixDashboard() {
           onNavigateToCards={handleNavigateToCards}
           currentView={currentView}
         />
-        <MainContent />
-        <FinancialDashboard />
+        <MainContent onNavigateToFinancialAccount={handleNavigateToFinancialAccount} />
       </div>
     </div>
   )
